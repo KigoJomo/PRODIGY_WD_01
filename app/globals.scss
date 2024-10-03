@@ -3,10 +3,75 @@
 @tailwind utilities;
 
 :root {
-  --background: #C1AA90;
-  --foreground: #1D1915;
+  --background: #dac9b6;
+  --foreground: #1d1915;
   --primary: #695441;
-  --secondary: #3A3126;
+  --secondary: #3a3126;
+}
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Italiana&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Alata', sans-serif;
+  color: var(--foreground);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Alata&family=Italiana&display=swap');
+.alata{
+  font-family: 'Alata', sans-serif;
+}
+
+.italiana{
+  font-family: 'Italiana', serif;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Italiana', serif;
+  text-transform: capitalize;
+  * {
+    font-family: 'Italiana', serif;
+    text-transform: capitalize;
+  }
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.text-background {
+  * {
+    color: var(--background);
+  }
+}
+
+html {
+  body {
+    header {
+    }
+    main {
+      section {
+        padding: 1rem;
+      }
+    }
+    footer {
+    }
+  }
+}
