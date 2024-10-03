@@ -1,10 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Alata&family=Italiana&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 :root {
   --background: #C1AA90;
   --foreground: #1D1915;
   --primary: #695441;
   --secondary: #3A3126;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Italiana&display=swap');

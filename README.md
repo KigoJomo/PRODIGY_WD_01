@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Prodigy WD-01
 
-## Getting Started
+This project is an interactive navigation menu built using Next.js and Tailwind CSS. The navigation menu changes color or style when scrolled or when hovering over a menu item. It has a fixed position and is visible on all pages.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Fixed Position**: The navigation menu remains fixed at the top of the page.
+- **Interactive Styling**: Changes background color or font color when scrolled or hovered over.
+- **Responsive Design**: Ensures the menu looks good on all devices.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Next.js**: A React framework for server-side rendering and generating static websites.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **JavaScript**: Adds interactivity to the navigation menu.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+1. Clone the repository:
+  ```bash
+  git clone https://github.com/KigoJomo/PRODIGY_WD_01.git
+  ```
+2. Navigate to the project directory:
+  ```bash
+  cd PRODIGY_WD_01
+  ```
+3. Install dependencies:
+  ```bash
+  npm install
+  ```
 
-To learn more about Next.js, take a look at the following resources:
+## Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Start the development server:
+  ```bash
+  npm run dev
+  ```
+2. Open your browser and navigate to `http://localhost:3000`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Project Structure
 
-## Deploy on Vercel
+- `app/`: Contains the Next.js pages.
+- `components/`: Contains the React components, including the navigation menu.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+For any questions or feedback, please contact [kigojomo@gmail.com](mailto:kigojomo@gmail.com).
