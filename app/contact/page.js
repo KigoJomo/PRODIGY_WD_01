@@ -1,23 +1,23 @@
 import React from 'react'
-import EmailIcon from '@mui/icons-material/Email'
-import PhoneIcon from '@mui/icons-material/Phone'
-import HomeIcon from '@mui/icons-material/Home'
+import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined'
+import PhoneOutlinedIcon from '@mui/icons-material/PhoneOutlined'
+import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined'
 
 const contactDetails = [
   {
     title: 'email',
     value: 'kigojomo@gmail.com',
-    icon: <EmailIcon />,
+    icon: <EmailOutlinedIcon />,
   },
   {
     title: 'phone',
     value: '+254 712 345 678',
-    icon: <PhoneIcon />,
+    icon: <PhoneOutlinedIcon />,
   },
   {
     title: 'address',
     value: '123, Nairobi, Kenya',
-    icon: <HomeIcon />,
+    icon: <HomeOutlinedIcon />,
   },
 ]
 
